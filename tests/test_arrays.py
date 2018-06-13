@@ -21,3 +21,6 @@ class ArraysTest(unittest.TestCase):
         array = [5, 4, 3, 1, 2]
         self.assertEqual(3, arrays.middle(array))
 
+    def test_should_count_how_many_occurences_of_a_element(self):
+        array = [5, 4, 3, 1, 2, 2]
+        self.assertEqual(2, arrays.count(array, 2))
