@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import unittest
-from geometry import geometry2d
+from workshop import geometry2d
 
 
 class Geometry2dTest(unittest.TestCase):
